@@ -18,13 +18,16 @@
 
 > 欢迎提交主题，提供更多文章示例~~
 
-## 关于
+## 开发流程
 
-`mdnice`组建了**推文群**，欢迎反馈意见和公众号大佬们一起交流，关注公众号回复「排版」拉你入群。
-
-| 入群码                                                                                           |
-| ------------------------------------------------------------------------------------------------ |
-| <img width="360px" src="https://files.mdnice.com/pic/cd3ca20c-896f-4cfc-9bdd-c4c58e69ba26.jpg"/> |
+下载项目、切换目录、安装依赖包和开始运行
+```bash
+$ git clone git@github.com:mdnice/markdown-nice.git
+$ cd markdown-nice
+$ yarn
+$ yarn start
+```
+运行后即可在浏览器中访问 `http://localhost:3000` 可看到页面
 
 ## 友情链接
 
