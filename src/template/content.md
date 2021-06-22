@@ -14,7 +14,7 @@
 
 ## 2 主题
 
-**https://preview.mdnice.com/themes/**
+**https://product.mdnice.com/themes/**
 
 欢迎提交主题，提供更多文章示例~~
 

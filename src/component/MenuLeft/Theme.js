@@ -7,6 +7,7 @@ import {replaceStyle} from "../../utils/helper";
 import TEMPLATE from "../../template/index";
 import "./Theme.css";
 import axios from "axios";
+// import localThemeData from "../../json/localThemeList";
 
 @inject("content")
 @inject("navbar")
@@ -35,7 +36,7 @@ class Theme extends React.Component {
 
   subscribeMore = () => {
     const w = window.open("about:blank");
-    w.location.href = "https://preview.mdnice.com/themes";
+    w.location.href = "https://product.mdnice.com/themes";
   };
 
   componentDidMount = async () => {
@@ -62,10 +63,12 @@ class Theme extends React.Component {
           throw new Error();
         }
         remoteThemelist = response.data.data.themeList;
+        // remoteThemelist = localThemeData;
       }
 
       themeList = [
         {themeId: "normal", name: "默认主题", css: TEMPLATE.normal},
+        {themeId: "nenq", name: "嫩青", css: TEMPLATE.nenq},
         ...remoteThemelist,
         {themeId: "custom", name: "自定义", css: TEMPLATE.custom},
       ];

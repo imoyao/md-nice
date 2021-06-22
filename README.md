@@ -18,6 +18,14 @@
 
 > 欢迎提交主题，提供更多文章示例~~
 
+自定义主题
+[神器 MdNice ! - 简书](https://www.jianshu.com/p/e55708271a3d)
+
+主题更新地址：
+```html
+https://api.mdnice.com/themes/viewer?currentPage=1&pageSize=50&checked=true&order=ASC
+```
+
 ## 开发流程
 
 下载项目、切换目录、安装依赖包和开始运行
